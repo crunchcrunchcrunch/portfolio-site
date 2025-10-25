@@ -32,8 +32,6 @@ button, html input[type="button"],/* 1 */ input[type="reset"], input[type="submi
   -webkit-appearance: button;
 
   cursor: pointer;
-
-  *overflow: visible;
 }
 
 body,
@@ -157,14 +155,6 @@ main {
 
 audio,
 canvas,
-video {
-  display: inline-block;
-
-  *display: inline;
-
-  *zoom: 1;
-}
-
 blockquote:before,
 blockquote:after,
 q:before,
@@ -986,7 +976,7 @@ article[role="pge-title-content"].contact-header p a:hover {
   display: block;
   height: 375px;
   left: 100px;
-   text-align: left;
+  text-align: left;
   margin-top: 100px;
   margin-bottom: 10px;
 }
@@ -1027,7 +1017,7 @@ article[role="pge-title-content"].contact-header p a:hover {
   left: 10px;
 }
 .work-item {
-  margin: 2px 0;30;
+  margin: 2px 0 30px;
 }
 .work-summary {
   margin: 10px;
