@@ -1,4 +1,4 @@
-let canvas;
+//let canvas;
 let xPos = 0;
 let yPos = 0;
 let easing = 0.2;
