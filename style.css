@@ -1,5 +1,5 @@
-// <weight>: Use a value from 100 to 900
-// <uniquifier>: Use a unique and descriptive class name
+/* // <weight>: Use a value from 100 to 900 */
+/* // <uniquifier>: Use a unique and descriptive class name */
 html {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
@@ -28,7 +28,7 @@ body {
 .header {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 500;
   font-style: normal;
   color: #2f3069;
   text-align: left;
@@ -40,7 +40,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 5px 100px;
-  font-size: 23px;
+  font-size: 24px;
 }
 
 .top-bar .header {
@@ -73,6 +73,7 @@ body {
   margin-top: -20px;
   font-size: 26px;
 }
+
 .decorative-line {
   position: relative;
   width: 1100px;

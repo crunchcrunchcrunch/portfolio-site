@@ -10,10 +10,30 @@ body {
   padding: 0;
 }
 
+nav {
+  font-size: 24px;
+}
+
+.header {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #2f3069;
+  text-align: left;
+  font-size: 38px;
+}
+
+.header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* Main resume wrapper */
 .resume {
-  padding: 20px 60px;
-  max-width: 900px;
+  padding: 0px;
+  max-width: 1050px;
   margin: 0 auto;
 }
 
@@ -21,14 +41,12 @@ body {
   display: flex;
   gap: 25px;
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin: 10;
 }
 
 .navy a {
   text-decoration: none;
-  font-family: inherit;
-  color: inherit;
+  font-family: Montserrat, sans-serif;
 }
 
 .nav-active a {
@@ -38,11 +56,10 @@ body {
 
 .decorative-line {
   position: relative;
-  width: 100%;
-  max-width: 1100px;
+  width: 1100px;
   height: 2px;
   background: #8d90ad;
-  margin: 20px auto 30px;
+  margin: 0px auto;
 }
 
 .content-wrapper {
@@ -58,7 +75,7 @@ body {
 .resume-section h2 {
   border-bottom: 2px dashed #bbbbdb;
   line-height: 1.4;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .btn {
