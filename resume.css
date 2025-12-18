@@ -10,6 +10,12 @@ body {
   padding: 0;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 nav {
   font-size: 24px;
 }
@@ -56,7 +62,8 @@ nav {
 
 .decorative-line {
   position: relative;
-  width: 1100px;
+  width: 100%;
+  max-width: 1100px;
   height: 2px;
   background: #8d90ad;
   margin: 0px auto;
@@ -119,4 +126,47 @@ footer {
 
 footer img {
   height: 24px;
+}
+
+/* Mobile responsiveness (keep desktop mostly unchanged) */
+@media (max-width: 768px) {
+  .resume {
+    padding: 0 16px;
+  }
+
+  .header {
+    font-size: 28px;
+    margin: 0;
+  }
+
+  .header-info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  nav {
+    font-size: 18px;
+  }
+
+  .navy ul {
+    flex-wrap: wrap;
+    gap: 14px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .content-wrapper {
+    max-width: 100%;
+  }
+
+  .work-item {
+    grid-template-columns: 1fr;
+    row-gap: 8px;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
 }
